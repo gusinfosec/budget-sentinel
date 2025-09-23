@@ -12,6 +12,7 @@
   <img alt="Stars" src="https://img.shields.io/github/stars/gusinfosec/budget-sentinel?style=social">
 </p>
 
+
 ---
 
 ## 🧩 Overview
@@ -28,9 +29,11 @@ Perfect for:
 
 ## 📸 Screenshots
 
-<img src="assets/screenshot-tracker-preview.png" alt="Budget Sheet Preview" width="700" />
-<br/>
-<img src="assets/screenshot-alert-preview.png" alt="ntfy Alert Preview" width="600" />
+### Budget Tracker Preview
+<img src="assets/screenshot-tracker-preview.png" alt="Budget Tracker Preview" width="100%"/>
+
+### Budget Alert Notification (ntfy)
+<img src="assets/screenshot-ntfy-alerts.png" alt="Budget Alert via ntfy" width="100%"/>
 
 ---
 
