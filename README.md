@@ -1,5 +1,6 @@
+
 <p align="center">
-  <img src="assets/budget-sentinel-logo.png" width="260" alt="Budget Sentinel Logo" />
+  <img src="assets/budget-sentinel-logo.png" width="240" alt="Budget Sentinel Logo" />
 </p>
 
 <h1 align="center">Budget Sentinel</h1>
@@ -14,49 +15,21 @@
 
 ---
 
-## 🧾 About
+## 🚀 Overview
 
-**Budget Sentinel** empowers you to **take control of your finances** with dynamic Google Sheets budgeting, automated calendar alerts, and real-time push notifications via `ntfy`.
-
-This system is ideal for:
-- Busy professionals tracking multiple bills
-- Monthly income/expense planning
-- Automating bill due dates and alert reminders
+**Budget Sentinel** empowers you to take control of your finances with dynamic **Google Sheets budgeting**, **Google Calendar alerts**, and **`ntfy` push notifications**. Track bills, categorize expenses, and never miss a due date again.
 
 ---
 
 ## 📸 Screenshots
 
-### 📊 Budget Sheet + Alert System
-
 <p align="center">
-  <img src="assets/screenshot-tracker-preview.png" width="720" alt="Budget Tracker Google Sheets + NTFY" />
+  <img src="assets/screenshot-tracker-preview.png" alt="Google Sheets Budget Tracker" width="720"/>
 </p>
 
 ---
 
-## ⚙️ How It Works
-
-1. **Google Sheets** stores your monthly budget, dates, and tags.
-2. **Apps Script** automatically pushes alerts to your `ntfy` channel (topic: `budget`) and Google Calendar.
-3. **Bill alerts** notify you of due/overdue items.
-4. **Dashboard tab** aggregates income, remaining balance, and milestones.
-
----
-
-## 🚀 Setup
-
-```bash
-git clone https://github.com/gusinfosec/budget-sentinel.git
-cd budget-sentinel
-bash scripts/setup.sh
-```
-
-Follow the [setup guide](https://github.com/gusinfosec/budget-sentinel#-setup) for linking Google Sheets with your Apps Script and setting up `ntfy`.
-
----
-
-## 📂 Project Structure
+## 📦 Project Structure
 
 ```
 budget-sentinel/
@@ -67,18 +40,79 @@ budget-sentinel/
 │   └── setup.sh
 ├── src/
 │   └── budget-alert.gs
-├── README.md
+├── .gitignore
 ├── LICENSE
-└── .gitignore
+└── README.md
 ```
+
+---
+
+## 🛠 Setup Guide
+
+Follow this guide to link your Google Sheets with Apps Script and activate alerts via [`ntfy`](https://ntfy.sh).
+
+### 1. Clone the repo
+
+```bash
+git clone https://github.com/gusinfosec/budget-sentinel.git
+cd budget-sentinel
+bash scripts/setup.sh  # optional placeholder
+```
+
+### 2. Connect the Google Apps Script
+
+1. Open your Google Sheet.
+2. Go to **Extensions → Apps Script**.
+3. Replace the script content with the code from `src/budget-alert.gs`.
+4. Click **Save**, then name your project (e.g., “Budget Sentinel”).
+5. From the toolbar, click **Triggers → Add Trigger**.
+    - Function: `createBudgetReminders`
+    - Event source: **Time-driven**
+    - Type: **Daily** or **Hourly** depending on your preference.
+6. Authorize the script when prompted.
+
+### 3. Setup ntfy Notifications (Optional but recommended)
+
+1. Choose a topic name (e.g., `budget-sentinel`).
+2. Install the `ntfy` app on your phone or subscribe via CLI:
+   ```bash
+   ntfy subscribe budget-sentinel
+   ```
+3. Your `budget-alert.gs` script will publish alerts like:
+   > "🚨 Bill Due: $342 – Rent – Sep 25"
+
+### 4. Customize as Needed
+
+- Add more fields (e.g., Category, Frequency).
+- Tweak notification messages.
+- Sync to Notion, Telegram, etc.
+
+---
+
+## ✨ Features
+
+- 🔔 Google Calendar alerts
+- 📊 Google Sheets as the source of truth
+- 🚀 Real-time push notifications via `ntfy`
+- 📁 Simple project structure, ready to expand
+- ✅ Fully offline-friendly (Apps Script hosted by Google)
 
 ---
 
 ## 📜 License
 
-This project is licensed under the **MIT License**. See [LICENSE](LICENSE) for details.
+[MIT License](LICENSE)
 
 ---
 
-> Created with ❤️ by [@gusinfosec](https://github.com/gusinfosec) — Budgeting like a pro!
+## 🤝 Contributing
 
+Pull requests are welcome. For major changes, open an issue first to discuss what you’d like to improve or expand.
+
+---
+
+## 🌟 Show your support
+
+If you find this project useful, please ⭐ the repo to help others discover it.
+
+---
