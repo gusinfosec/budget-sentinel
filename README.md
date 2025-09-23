@@ -1,4 +1,3 @@
-
 <p align="center">
   <img src="assets/budget-sentinel-logo.png" width="240" alt="Budget Sentinel Logo" />
 </p>
@@ -7,11 +6,18 @@
 <p align="center"><em>Your automated Google Sheets + Calendar + Alerts system for managing monthly budgets</em></p>
 
 <p align="center">
+  <a href="https://ko-fi.com/s/3d7c0cfd31" target="_blank">
+    <img src="https://img.shields.io/badge/Download%20on-Ko--fi-FF5E5B?logo=ko-fi&logoColor=white&style=for-the-badge" alt="Download on Ko-fi" />
+  </a>
+</p>
+
+<p align="center">
   <img alt="GitHub license" src="https://img.shields.io/github/license/gusinfosec/budget-sentinel">
   <img alt="PRs Welcome" src="https://img.shields.io/badge/PRs-welcome-brightgreen.svg">
   <img alt="Status" src="https://img.shields.io/badge/status-active-success">
   <img alt="Stars" src="https://img.shields.io/github/stars/gusinfosec/budget-sentinel?style=social">
 </p>
+
 
 ---
 
