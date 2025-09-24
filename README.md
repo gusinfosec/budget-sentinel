@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="assets/budget-sentinel-logo.png" width="240" alt="Budget Sentinel Logo" />
+  <img src="assets/budget-sentinel-logo.png" width="300" alt="Budget Sentinel Logo" />
 </p>
 
 <h1 align="center">Budget Sentinel</h1>
