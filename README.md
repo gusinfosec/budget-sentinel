@@ -26,9 +26,6 @@
 
 ---
 
-
----
-
 ## 🚀 Overview
 
 **Budget Sentinel** empowers you to take control of your finances with dynamic **Google Sheets budgeting**, **Google Calendar alerts**, and **`ntfy` push notifications**. Track bills, categorize expenses, and never miss a due date again.
