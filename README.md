@@ -12,9 +12,9 @@
 
 
 <p align="center">
-<a href="https://ko-fi.com/s/3d7c0cfd31">
-<img src="https://img.shields.io/badge/Support%20me%20on-Ko--fi-FF5E5B?logo=ko-fi&logoColor=white" alt="Support me on Ko-fi" />
-</a>
+  <a href="https://ko-fi.com/s/3d7c0cfd31">
+    <img src="https://ko-fi.com/img/githubbutton_sm.svg" alt="Support me on Ko-fi">
+  </a>
 </p>
 
 
