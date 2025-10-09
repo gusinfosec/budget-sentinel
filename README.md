@@ -40,7 +40,7 @@
 
 ---
 
-📂 **Working Sample:** [Budget_Tracker_2025_Dashboard.xlsx](assets/Budget_Tracker_2025_Dashboard.xlsx)
+📂 **Working Sample:** [Budget_Tracker_2025.xlsx](assets/Budget_Tracker_2025.xlsx)
 
 ---
 
