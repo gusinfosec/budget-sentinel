@@ -40,8 +40,7 @@
 
 ---
 
-📂 A working sample tracker is included at:  
-[assets/Budget_Tracker_2025_Dashboard.xlsx](assets/Budget_Tracker_2025_Dashboard.xlsx)
+📂 **Working Sample:** [Budget_Tracker_2025_Dashboard.xlsx](assets/Budget_Tracker_2025_Dashboard.xlsx)
 
 ---
 
