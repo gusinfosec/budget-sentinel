@@ -2,21 +2,17 @@
 <img src="assets/budget-sentinel-logo.png" width="300" alt="Budget Sentinel Logo" />
 </p>
 
-
 <h1 align="center">Budget Sentinel</h1>
-
 
 <p align="center">
 <i>Your automated Google Sheets + Calendar + Alerts system for managing monthly budgets</i>
 </p>
-
 
 <p align="center">
   <a href="https://ko-fi.com/s/3d7c0cfd31">
     <img src="https://ko-fi.com/img/githubbutton_sm.svg" alt="Support me on Ko-fi">
   </a>
 </p>
-
 
 <p align="center">
 <img alt="license" src="https://img.shields.io/badge/license-MIT-green">
@@ -41,6 +37,14 @@
 ---
 
 📂 **Working Sample:** [Budget_Tracker_2025.xlsx](assets/Budget_Tracker_2025.xlsx)
+
+> The included sample demonstrates:
+> - Monthly Summary with automatic roll-up of **Income, Expenses, Net, Carryover, and Remaining Balance**
+> - Dashboard KPIs for **This Month’s Income, Expenses, Net, and Balance**
+> - Sparklines to visualize trends for Income, Expenses, Net, and Remaining Balance
+> - Conditional formatting highlighting positive (green) vs. negative (red) balances
+>
+> This file serves as a professional demo of how Budget Sentinel works with real-world data.
 
 ---
 
@@ -107,7 +111,7 @@ and copies the Apps Script code to your clipboard (if supported).
 
 3. Your script will publish alerts like:
 
-   > 📢 Budget Alert: Rent \$142 due in 4 days
+   > 📢 Budget Alert: Rent $142 due in 4 days
 
 ------------------------------------------------------------------------
 
@@ -147,6 +151,3 @@ discuss what you'd like to improve or expand.
 If you find this project useful, please ⭐ the repo to help others
 discover it.\
 Or support development on [Ko-fi](https://ko-fi.com/s/3d7c0cfd31).
-
-------------------------------------------------------------------------
-
