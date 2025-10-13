@@ -131,13 +131,11 @@ and copies the Apps Script code to your clipboard (if supported).
 2. Receive notifications like:
    ```
    📣 Budget Sentinel Digest — Oct 10
-   💰 Pay window: Last business day
-   📅 Due Today: 2
-   ⏭ Upcoming: 1
-   ⏰ Overdue: 0
-   Income (Month): $4,200.00
-   Remaining After Paid: $1,400.00
-   Net (Income – All): $1,000.00
+   💰 Income (Month): $4,200.00 
+   ✅ Paid: 18 items – $6,900.76 
+   ⚠️ Unpaid: 11 items – $2,948.96
+   🚨 Overdue: 2 items
+   💸 Remaining After Paid: $1,375.09
    ```
 
 ---
