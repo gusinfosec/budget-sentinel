@@ -1,0 +1,10 @@
+MIT License (for code)
+
+Copyright (c) 2025 Cyber Global Technologies LLC
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files to use, copy, modify,
+merge, publish, distribute, sublicense, and/or sell copies of the Software,
+subject to inclusion of this license notice.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND.
