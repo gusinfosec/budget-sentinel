@@ -1,0 +1,6 @@
+# Ignore all sensitive and build files
+*.zip
+*.key
+*.secret
+Budget-Sentinel-PRO-*
+Publisher-Toolkit/
